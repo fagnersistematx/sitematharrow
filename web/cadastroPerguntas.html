@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Arrow</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <style>            
+        </style>
+    </head>
+    <body>
+        <div class="panel panel-primary">
+            <div class="panel-heading">Controle de Perguntas</div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="id">ID</label>
+                    <input type="text" class="form-control" id="id" placeholder="Insira o id para alterar ou remover"/>
+                    <label for="pergunta">Pergunta</label>
+                    <input type="text" class="form-control" id="pergunta" />
+                    <label for="resposta">Resposta</label>
+                    <input type="text" class="form-control" id="resposta" />                    
+                </div>
+                <button id="bt_create" class="btn btn-success">Adicionar</button>
+                <button id="bt_updade" class="btn btn-info">Alterar</button>
+                <button id="bt_delete" class="btn btn-danger">Remover</button>
+            </div>
+            <div class="panel-heading">Listar de Perguntas</div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Pergunta</th>
+                                <th>Resporta</th>                                
+                            </tr>
+                        </thead>
+                        <tbody id="lista_alunos">                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>        
+        <script src="js/index.js"></script>
+    </body>
+</html>

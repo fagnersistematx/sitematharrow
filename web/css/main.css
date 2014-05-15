@@ -1,0 +1,42 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;   
+}
+footer {
+    //position:absolute;
+    //bottom:0;
+    width:100%;
+    background-color: rgb(238, 238, 238);
+}
+.footer-div-redes-sociais{
+    background-color: rgb(248, 248, 248);
+}
+.footer-div-universidade{
+    color: #285e8e;
+    text-align:center;
+}           
+.jumbotron{
+    background: url("img/octicons-bg.png") repeat scroll center center #FFA940;
+}
+.footer-div-direitos-autorais{
+    padding: 0 0px 0px 0px; float:right; height: 10px; width: 530px; font-size:10px; text-align: right; clear: both;
+}
+.line-posts > div div:hover {
+    background-color: #000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
