@@ -1,30 +1,80 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;   
-}
-footer {
-    //position:absolute;
-    //bottom:0;
-    width:100%;
-    background-color: rgb(238, 238, 238);
-}
-.footer-div-redes-sociais{
-    background-color: rgb(248, 248, 248);
-}
-.footer-div-universidade{
-    color: #285e8e;
-    text-align:center;
-}           
+}         
 .jumbotron{
-    background: url("img/octicons-bg.png") repeat scroll center center #FFA940;
+    background: url("../img/octicons-bg.png") repeat scroll center center #EEE;
 }
-.footer-div-direitos-autorais{
-    padding: 0 0px 0px 0px; float:right; height: 10px; width: 530px; font-size:10px; text-align: right; clear: both;
+.jumbotron > div > div > div > h2{
+    font-weight:bold!important;
 }
 .line-posts > div div:hover {
-    background-color: #000 !important;
+    background-color: #FFA940 !important;
 }
-
+.navbar-default {
+    background-color: #FFA940;
+}
+.navbar-brand {
+    color: #5CB85C !important;
+    font-weight:bold;
+}
+.navbar-nav > li > a {
+    color: #007194 !important;
+    font-weight:bold;
+}
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #5CB85C !important;
+    background-color: transparent;
+}
+.navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #007194 !important;
+}
+.navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #428BCA !important;
+    background-color: transparent;
+}
+.footer{    
+    bottom:0;
+    width:100%;
+    background-color:#f0eded;
+    font-size:11px;
+    text-transform:uppercase;
+    padding:20px 0;
+    color:#007194
+}
+.footer ul{
+    color:#007194;
+    font-size:14px;
+    font-weight:bold;
+    text-transform:uppercase
+}
+.footer li{
+    display:block;
+    margin:0 70px 12px 0
+}
+.footer li a{
+    color:#007194
+}
+.footer li a:hover{
+    color: #5CB85C;
+    text-decoration:none
+}
+.footer li:before{
+    content:url("../img/list-arrow.png");
+    margin:3px 12px 0 0
+}
+.footer .right{
+    text-align:right
+}
+.footer .copyright{
+    margin-top:12px;
+    color:#64b239;
+    font-weight:bold
+}.footer.old{
+    position:relative;
+    margin-top:-61px;
+    clear:both
+}
 
 
 
