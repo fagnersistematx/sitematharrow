@@ -3,20 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Math Arrow</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        
-        <link rel="stylesheet" href="css/bootstrap.min.css">   
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">      
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-    <body>        
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <body> 
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,6 +25,11 @@
                     <a class="navbar-brand" href="#">Math Arrow</a>
                 </div>
                 <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#" class="glyphicon glyphicon-home"></a></li>
+                        <li><a href="#">O QUE E?</a></li>
+                        <li><a href="#about">COMO FUNCIONA?</a></li>                 
+                    </ul>
                     <form class="navbar-form navbar-right" role="form">
                         <div class="form-group">
                             <input type="text" placeholder="E-mail" class="form-control">
@@ -37,22 +39,22 @@
                         </div>
                         <button type="submit" class="btn btn-success">Entrar</button>
                     </form>
-                </div><!--/.navbar-collapse -->
+                </div>
             </div>
-        </div>
+        </nav>
 
         <div class="jumbotron">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h1>Olá, Seja bem-vindo!</h1>
+                        <h2>Olá Professor, Seja bem-vindo!</h2>                            
                         <p>Ensine seus alunos de uma forma inovadora!</p>
                         <p><a class="btn btn-primary btn-lg" role="button">Leia mais &raquo;</a></p>
                     </div>
                     <div class="col-md-4">
                         <form method="post" autocomplete="off" action="/join" accept-charset="UTF-8">
                             <div>
-                                <input type="hidden" value="iqNkDTHcW0cGiwCcI5KwIp6Cx4ZMW0xPjdoPN8zC4R7YyV7WGDSJcT/77btq0YOWKDqCqduh5PMrMmYX4YNqtA==" name="authenticity_token"/>
+                                <input type="hidden" name="authenticity_token"/>
                             </div>
                             <dl>
                                 <dd>
@@ -90,21 +92,23 @@
                 </div>
             </section>
         </div> <!-- /container -->        
-        <footer>
-            <div class="container">
-                <hr>
-                <div class="footer-div-redes-sociais">
-                </div>
-                <div class="footer-div-universidade">
-                    <p>Universidade Federal da Paraíba</p>
-                    <p>Campus IV - Litoral Norte - Rio Tinto -PB</p>
-                    <p>CCAE - Centro de Ciências Aplicadas e Educação</p>
-                    <p>DCE - Departamento de Ciências Exatas</p>
-                </div>
-                <div class="footer-div-direitos-autorais">
-                    <p>&copy; 2014 - Todos os direitos autorais reservados.</p>
+        <footer class='footer'>
+            <div class='container'>
+                <div class="row">
+                    <div class="span8">
+                        <ul>
+                            <li><a href="/pages/termos/">Termos de Uso</a></li>
+                            <li><a href="/pages/faq/">Perguntas Frequentes (FAQ)</a></li>
+                            <li><a href="/pages/contato/">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="span4 right">
+                        <p class="copyright">Copyright © 2014 - Powered by Fagner Silva Martins</p>
+                        <!--<img src="" /> -->
+                    </div>
                 </div>
             </div>
+            <div class='clearfix'></div>
         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.js"><\/script>');</script>
