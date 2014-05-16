@@ -15,7 +15,7 @@ body {
     background-color: #FFA940;
 }
 .navbar-brand {
-    color: #5CB85C !important;
+    color: #7EB530 !important;
     font-weight:bold;
 }
 .navbar-nav > li > a {
@@ -23,7 +23,7 @@ body {
     font-weight:bold;
 }
 .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #5CB85C !important;
+    color: #7EB530 !important;
     background-color: transparent;
 }
 .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -34,6 +34,7 @@ body {
     background-color: transparent;
 }
 .footer{    
+    box-sizing: initial !important;
     bottom:0;
     width:100%;
     background-color:#f0eded;
@@ -56,7 +57,7 @@ body {
     color:#007194
 }
 .footer li a:hover{
-    color: #5CB85C;
+    color: #7EB530;
     text-decoration:none
 }
 .footer li:before{
@@ -75,6 +76,29 @@ body {
     margin-top:-61px;
     clear:both
 }
+.page-main {
+    background: none repeat scroll 0% 0% #FFF;
+    border-radius: 20px;
+    padding: 35px 40px 40px;    
+    margin: 20px auto 30px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
+}
+.div_turmas{
+    margin: 20px auto 30px;
+}
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    z-index: 2;
+    color: #FFF;
+    background-color: #7EB530;
+    border-color: #7EB530;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    text-shadow: 0px -1px 0px #7EB530;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-image: linear-gradient(to bottom, #7EB530 0px, #7EB530 100%)!important;
+}
+
 
 
 
